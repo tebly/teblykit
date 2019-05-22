@@ -1,0 +1,58 @@
+.icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.5s ease;
+
+    //SIZE
+
+    &--size-10x10 {
+        width: 10px;
+        height: 10px;
+    }
+
+    &--size-12x12 {
+        width: 12px;
+        height: 12px;
+    }
+
+    &--size-18x18 {
+        width: 18px;
+        height: 18px;
+    }
+
+    &--size-20x20 {
+        width: 20px;
+        height: 20px;
+    }
+
+    &--size-24x24 {
+        width: 24px;
+        height: 24px;
+    }
+
+    &--size-28x28 {
+        width: 28px;
+        height: 28px;
+    }
+
+    &--size-36x36 {
+        width: 36px;
+        height: 36px;
+    }
+
+    //WIDTH
+
+    &--width-12 {
+        width: 12px;
+    }
+
+    &--width-15 {
+        width: 15px;
+    }
+
+    //TRANSFORMATIONS
+
+    &--rotate-180 {
+        transform: rotate(180deg);
+    }
+}

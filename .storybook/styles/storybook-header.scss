@@ -1,0 +1,16 @@
+@import '../../src/shared/styles/variables/colours';
+@import '../../src/shared/styles/variables/fonts';
+
+$header-height: 40px;
+
+.storybook-header {
+    height: $header-height;
+    line-height: $header-height;
+    position: relative;
+    text-align: center;
+    background: linear-gradient(110deg, $brand-green 60%, $brand-green 60%);
+    color: $brand-white;
+    font-size: 14px;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+}

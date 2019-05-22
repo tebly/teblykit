@@ -1,0 +1,16 @@
+<!--
+IMPORTANT
+The scripts will run before Storybook’s React UI.
+Be aware, that this is an uncommon scenario and could potentially break Storybook’s UI.
+Use with caution.
+-->
+<style>
+    /*
+     * Awful yes but necessary in order to avoid a double scrolling
+     */
+    /* stylelint-disable */
+    .Pane.horizontal > div {
+        height: 99% !important;
+    }
+    /* stylelint-enable */
+</style>

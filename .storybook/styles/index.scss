@@ -1,0 +1,61 @@
+@import '../../src/shared/styles/variables/colours';
+@import '../../src/shared/styles/variables/fonts';
+@import '../../src/shared/styles/base/reset';
+@import '../../src/shared/styles/icons/icons';
+
+.tebly-storybook {
+    font-family: $primary-font;
+    font-weight: $font-weight-normal;
+
+    &__header {
+        height: 100px;
+        background: $brand-green;
+        padding: 20px 30px;
+        color: $brand-white;
+        font-weight: 600;
+        font-size: 20px;
+
+        img {
+            max-width: 200px;
+            margin: auto;
+            display: block;
+        }
+    }
+
+    &__section {
+        color: $brand-green;
+        background: $brand-white;
+        margin: 5%;
+        padding: 10px;
+    }
+
+    &__section-title {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    &__menu {
+        padding: 10px 0;
+        font-weight: $font-weight-medium;
+        text-transform: uppercase;
+        margin: 0;
+        color: $brand-black;
+
+        &-component-list {
+            font-size: 15px;
+            font-family: $primary-font;
+            border-bottom: 1px solid $brand-black;
+            list-style-type: none;
+            padding: 5px;
+
+            &:last-child {
+                border: none;
+            }
+        }
+
+        &-component-view {
+            text-decoration: none;
+            color: $brand-black;
+        }
+    }
+}
